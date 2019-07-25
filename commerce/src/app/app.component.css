@@ -9,6 +9,8 @@ img{
 }
 h1{
   display: inline-block;
+  margin: 0px 15px 0px 15px;
+  text-shadow: 0px 2px 10px #555;
 }
 
 * {
@@ -21,8 +23,13 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 30px;
+  background-color: lightgray;
+  background-image:
+	  linear-gradient(to right bottom,
+     rgba(76, 216, 255, 0.8),
+     rgba(30, 108, 217, 0.8)),
+     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
+  padding: 0px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -60,7 +67,11 @@ article {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-image:
+	  linear-gradient(to right bottom,
+     rgba(76, 216, 255, 0.8),
+     rgba(30, 108, 217, 0.8)),
+     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
   padding: 10px;
   text-align: center;
   color: white;
