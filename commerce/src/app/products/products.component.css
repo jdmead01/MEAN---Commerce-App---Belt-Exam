@@ -10,11 +10,16 @@ h2 {
 button, a {
     float: right;
 }
-
-th {
+table{
+  border-width:5px;
+  border-style:ridge;
+}
+th{
     background-color: #D3D3D3;
     color: white;
     padding: 5px;
+    /* border-width:5px;
+    border-style:inset; */
 }
 
 .fancyButton {
